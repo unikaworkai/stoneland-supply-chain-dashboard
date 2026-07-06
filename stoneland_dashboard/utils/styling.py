@@ -11,7 +11,12 @@ CSS = """
 [data-testid="stMetricLabel"] {
     font-weight: 600;
     color: #4E82BE;
-}
+}[data-testid="stMetricValue"] {
+       color: #1A1A1A !important;
+   }
+   [data-testid="stMetricDelta"] {
+       color: #1A1A1A !important;
+   }
 .stoneland-banner {
     background: linear-gradient(90deg, #2E5C93 0%, #4E82BE 55%, #8DC63F 100%);
     padding: 28px 32px;
